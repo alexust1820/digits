@@ -1,0 +1,33 @@
+.partner {
+	width: 110px;
+	height: 110px;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.partner.-netflix {
+	background-image: url(../img/netflix.png);
+}
+
+.partner.-drawkit {
+	background-image: url(../img/drawkit.png);
+}
+
+.partner.-figma {
+	background-image: url(../img/figma.png);
+}
+
+.partner.-google {
+	background-image: url(../img/google.png);
+}
+
+.partner.-disney {
+	background-image: url(../img/disney.png);
+}
+
+.partner.-stripe {
+	background-image: url(../img/stripe.png);
+}
+

@@ -1,0 +1,28 @@
+.card {
+	width: 270px;
+	height: 310px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 5px 5px  rgba(0,0,0,0.3);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.icon {
+	width: 50px;
+}
+
+.card.-portflolio {
+	margin-bottom: 50px;
+	min-width: 400px;
+	min-height: 430px;
+}
+
+.card.-portfolio.-margin {
+	margin-top: 100px;
+}
+
+.card.-portfolio.-margin_b {
+	margin: 0;
+}

@@ -1,0 +1,10 @@
+.title.-CTA {
+	width: 350px;
+}
+
+.mail {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+}

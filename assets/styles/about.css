@@ -1,0 +1,17 @@
+.about__img {
+	background-image: url(../img/about__img.png);
+	width: 500px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: 400px;
+
+}
+
+.about__info {
+	width: 500px;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}

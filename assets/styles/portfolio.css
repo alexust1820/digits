@@ -1,0 +1,9 @@
+.portfolio__img {
+	width: 360px;
+}
+
+.portfolio__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}

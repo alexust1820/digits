@@ -1,0 +1,21 @@
+.services__up {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.secrices__up__left {
+	width: 50%;
+}
+
+.secrices__up__right {
+	width: 35%;
+}
+
+.services__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 70px;
+	min-height: 50%;
+}

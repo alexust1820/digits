@@ -1,0 +1,17 @@
+.test__top {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 80px;
+}
+
+.reviews {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stars {
+	width: 70px;
+}

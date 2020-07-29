@@ -1,0 +1,20 @@
+.section {
+	min-height: 100vh;
+	background-repeat: no-repeat;
+}
+
+.section.-main {
+	background-image: url(../img/main__bg.png);
+	background-position: right top;
+	background-size: 550px;
+}
+
+.section.-partners, .-services, .-about_us, .-portfolio {
+	min-height: 0;
+	padding-bottom: 70px;
+}
+
+.section.-testimonials {
+	background: linear-gradient(to bottom, #FFFFFF, #F2F9FF);
+	position: relative;
+}

@@ -1,0 +1,28 @@
+.profile {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+}
+
+.profile__img {
+	width: 70px;
+	height: 70px;
+	background-repeat: no-repeat;
+	border: 5px solid var(--c-white);
+	border-radius: 50%;
+	background-size: 70px;
+	background-position: center;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.profile__img.-google {
+	background-image: url(../img/user-google.png);
+}
+
+.profile__img.-facebook {
+	background-image: url(../img/user-facebook.png);
+}
+
+.profile__img.-amazon {
+	background-image: url(../img/user-amazon.png);
+}

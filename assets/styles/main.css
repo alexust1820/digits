@@ -1,0 +1,19 @@
+.main__right {
+	background-image: url(../img/main_img.png);
+	height: 520px;
+	width: 450px;
+	background-repeat: no-repeat;
+	background-size: 450px;
+}
+
+.main__left {
+	width: 450px;
+}
+
+.main__btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 80px;
+	width: 430px;
+}

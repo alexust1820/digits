@@ -1,0 +1,82 @@
+.title {
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 1000;
+	color: var(--c-nav);
+	margin: 0;
+}
+
+.title.-little {
+	font-size: 20px;
+}
+
+.subtitle {
+	font-size: 30px;
+	color: var(--c-nav);
+}
+
+.subtitle.-gray {
+	font-size: 15px;
+	color: var(--c-light_gray);
+}
+
+.subtitle.-portfolio {
+	width: 300px;
+}
+
+.p {
+	color: var(--c-light_gray);
+	margin: 7px 0;
+}
+
+.review__p {
+	color: var(--c-nav);
+	margin: 0px;
+}
+
+.title.-card {
+	font-size: 20px;
+}
+
+.bolder {
+	font-weight: bold;
+}
+
+.a__portfolio {
+	color: var(--c-light_nav);
+	position: relative;
+}
+
+.a__portfolio:before {
+	content: "";
+	width: 20px;
+	height: 1px;
+	background-color: var(--c-light_nav);
+	position: absolute;
+	right: -25px;
+	top: 9px;
+}
+
+.a__portfolio:after {
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-right: 1px solid var(--c-light_nav);
+	border-bottom: 1px solid var(--c-light_nav);
+	position: absolute;
+	right: -24px;
+	transform: rotate(-45deg);
+	top: 5px;
+}
+
+.review, .platform {
+	color: var(--c-review);
+}
+
+.CTA__p {
+	color:var(--c-review);
+}
+
+.CTA__a {
+	color: var(--c-light_nav);
+}

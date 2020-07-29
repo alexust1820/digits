@@ -1,0 +1,147 @@
+.btn {
+	background-color: transparent;
+	border: transparent;
+	padding: 10px 15px;
+	font-size: 15px;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn.-logo {
+	font-family: halyard-display, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	color: var(--c-nav);
+	position: relative;
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.btn.-logo:before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-color: var(--c-red);
+	border-radius: 50%;
+	right: 8px;
+	top: 12px;
+}
+
+.btn.-logo:after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-color: var(--c-red);
+	border-radius: 50%;
+	right: 8px;
+	top: 23px;
+}
+
+.btn.-nav {
+	color: var(--c-nav);
+}
+
+.btn.-nav.-menu {
+	position: relative;
+	margin-right: 10px;
+}
+
+.btn.-nav.-menu:before {
+	content: "";
+	position: absolute;
+	border-left: 2px solid var(--c-nav);
+	border-bottom: 2px solid var(--c-nav);
+	width: 8px;
+	height: 8px;
+	right: -2px;
+	top: 12px;
+	transform: rotate(-45deg);
+}
+
+.btn.-contact {
+	color: var(--c-white);
+	background-color: var(--c-btn_bg);
+	border-radius: 25px;
+}
+
+.btn.-main, .btn.-about_do {
+	padding: 15px 45px;
+	border-radius: 30px;
+}
+
+.btn.-main.-cons {
+	background-color: var(--c-btn_bg);
+	color: var(--c-white);
+}
+
+.btn.-main.-ser {
+	color: var(--c-light_gray);
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.btn.-our_serv {
+	background-color: var(--c-serv_bg);
+	border-radius: 4px;
+	color: var(--c-light_nav);
+	margin-bottom: 30px;
+}
+
+.btn.-about {
+	background-color: var(--c-light_red);
+	border-radius: 5px;
+	color: var(--c-red);
+}
+
+.btn.-about_do {
+	background-color: var(--c-btn_bg);
+	color: var(--c-white);
+	margin-top: 30px;
+}
+
+.btn.-review {
+	padding: 0;
+}
+
+.btn.-mail {
+	border-radius: 25px;
+	background-color: var(--c-mail);
+	padding: 15px 40px;
+	color: var(--c-white);
+}
+
+.btn.-gray {
+	color: var(--c-light_gray);
+}
+
+.btn.-gray.-footer {
+	padding-left: 0;
+}
+
+.btn.-icon {
+	background-repeat: no-repeat;
+}
+
+.btn.-icon.-facebook {
+	background-image: url(../img/icon-facebook.png);
+}
+
+.btn.-icon.-instagram {
+	background-image: url(../img/icon-instagram.png);
+}
+
+.btn.-icon.-twitter {
+	background-image: url(../img/icon-twitter.png);
+}
+
+.btn.-icon.-dribbble {
+	background-image: url(../img/icon-dribbble.png);
+}
+
+.btn.-icon.-envato {
+	background-image: url(../img/icon-envato.png);
+}

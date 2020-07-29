@@ -1,0 +1,29 @@
+.content.-header,.content.-main, .-CTA {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content.-partners, .content.-about_us, .content.-portfolio{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content.-portfolio {
+	padding: 0;
+}
+
+.content.-CTA {
+	position: absolute;
+	min-height: 0;
+	min-width: 85vw;
+	background-color: var(--c-white);
+	border: 40px solid var(--c-white);
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	border-radius: 20px;
+	bottom: -13%;
+	left: -35%;
+	transform: translate( 50%, 3%)
+}
+
