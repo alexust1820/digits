@@ -1,1 +1,1 @@
-# [digits](https://alexust1820.github.io/digit/)
+# [digits](https://alexust1820.github.io/digits/)
