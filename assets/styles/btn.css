@@ -145,3 +145,10 @@
 .btn.-icon.-envato {
 	background-image: url(../img/icon-envato.png);
 }
+
+@media screen and (max-width: 695px) {
+	.btn.-main.-ser {
+		margin-top: 20px;
+		box-shadow: 7px 7px 7px 0px rgba(0,0,0,0.2);
+	}
+}

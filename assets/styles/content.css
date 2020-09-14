@@ -27,3 +27,10 @@
 	transform: translate( 50%, 3%)
 }
 
+@media screen and (max-width: 900px) {
+	.content.-main {
+		flex-direction: column;
+	}
+}
+
+

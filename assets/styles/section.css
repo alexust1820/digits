@@ -18,3 +18,15 @@
 	background: linear-gradient(to bottom, #FFFFFF, #F2F9FF);
 	position: relative;
 }
+
+@media screen and ( max-height: 900px) {
+	.section.-main {
+		min-height: auto;
+		background-size: 300px;
+	}
+
+	.section.-partners {
+		display: flex;
+		flex-direction: column;
+	}
+}

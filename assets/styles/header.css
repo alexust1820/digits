@@ -15,3 +15,17 @@
 	justify-content: space-between;
 	width: 370px;
 }
+
+@media screen and (max-width: 1100px) {
+	.num {
+		display: none;
+	}
+
+	.btn.-contact {
+		font-size: 10px;
+	}
+
+	.header__right {
+		display: flex;
+		justify-content: flex-end;
+	}

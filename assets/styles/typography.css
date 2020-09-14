@@ -80,3 +80,9 @@
 .CTA__a {
 	color: var(--c-light_nav);
 }
+
+@media screen and (max-width: 418px) {
+	.title {
+		font-size: 30px;
+	}
+}
