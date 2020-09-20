@@ -32,10 +32,15 @@
 
 	.section.-testimonials {
 		background: none;
-		padding-bottom: 240px;
 	}
 
 	.footer {
 		padding-top: 240px;
+	}
+}
+
+@media screen and ( max-width: 450px) {
+	.section.-about_us {
+		padding-bottom: 200px;
 	}
 }

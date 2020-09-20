@@ -42,9 +42,7 @@
 	}
 
 	.content.-CTA {
-		display: flex;
-		flex-direction: column;
-		bottom: -5%;
+		display:none;
 	}
 }
 

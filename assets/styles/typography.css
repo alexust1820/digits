@@ -81,12 +81,6 @@
 	color: var(--c-light_nav);
 }
 
-@media screen and (max-width: 418px) {
-	.title {
-		font-size: 30px;
-	}
-}
-
 @media screen and ( max-height: 900px) {
 	.title.-card {
 		font-size: 40px;
@@ -98,6 +92,8 @@
 
 	.subtitle.-portfolio {
 		padding-bottom: 0;
+		width: calc(100% - 10px);
+		font-size: 40px;
 	}
 
 	.subtitle.-footer {
@@ -108,5 +104,16 @@
 @media screen and (max-width: 860px) {
 	.about__info {
 		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 418px) {
+	.title {
+		font-size: 30px;
+	}
+
+	.subtitle.-portfolio {
+		width: calc(100% - 10px);
+		font-size: 20px;
 	}
 }
