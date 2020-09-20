@@ -33,3 +33,18 @@ ul {
 	color: var(--c-light_gray);
 	margin-right: 30px;
 }
+
+@media screen and (max-width: 800px) {
+	.footer__top {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.footer__info {
+	width: 30%;
+	}
+
+	.footer__info,.list-one,.list-two,.resources {
+		margin-right: 15px;
+	}
+}

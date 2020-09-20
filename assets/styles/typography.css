@@ -86,3 +86,27 @@
 		font-size: 30px;
 	}
 }
+
+@media screen and ( max-height: 900px) {
+	.title.-card {
+		font-size: 40px;
+	}
+
+	.p.-card {
+		font-size: 20px;
+	}
+
+	.subtitle.-portfolio {
+		padding-bottom: 0;
+	}
+
+	.subtitle.-footer {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.about__info {
+		font-size: 25px;
+	}
+}

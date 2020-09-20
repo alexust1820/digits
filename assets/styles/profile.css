@@ -26,3 +26,10 @@
 .profile__img.-amazon {
 	background-image: url(../img/user-amazon.png);
 }
+
+@media screen and (max-width: 900px) {
+	.reviews {
+		display: flex;
+		flex-direction: column;
+	}
+}

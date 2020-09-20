@@ -31,6 +31,21 @@
 	.content.-main {
 		flex-direction: column;
 	}
+
+	.content.-partners {
+		flex-direction: column;
+	}
+
+	.content.-portfolio {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.content.-CTA {
+		display: flex;
+		flex-direction: column;
+		bottom: -5%;
+	}
 }
 
 

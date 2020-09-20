@@ -19,7 +19,7 @@
 	position: relative;
 }
 
-@media screen and ( max-height: 900px) {
+@media screen and ( max-width: 900px) {
 	.section.-main {
 		min-height: auto;
 		background-size: 300px;
@@ -28,5 +28,14 @@
 	.section.-partners {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.section.-testimonials {
+		background: none;
+		padding-bottom: 240px;
+	}
+
+	.footer {
+		padding-top: 240px;
 	}
 }

@@ -5,6 +5,7 @@
 	border-radius: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 100px;
 }
 
 .partner.-netflix {
@@ -29,5 +30,28 @@
 
 .partner.-stripe {
 	background-image: url(../img/stripe.png);
+}
+
+@media screen and (max-width: 900px) {
+	.partner {
+		width: calc(100% - 70px);
+		height: 250px;
+		border-radius: 5%;
+		background-size: 300px;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.partner {
+		width: calc(100% - 20px);
+	}
+}
+
+
+@media screen and (max-width: 420px) {
+	.partner {
+		background-size: 200px;
+	}
 }
 
